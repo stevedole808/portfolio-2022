@@ -1,0 +1,92 @@
+.Contact-Container {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 40px;
+	right: auto;
+	z-index: 10;
+	color: white;
+	margin-right: 20%;
+}
+
+.Contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 100px;
+	list-style: none;
+	margin-bottom: 100px;
+}
+
+.Contact li {
+	padding: 12px 0px;
+}
+
+.list {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+.list:hover {
+	color: lightblue;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.github {
+	background-color: white;
+	margin: 8px;
+}
+
+.line {
+	position: fixed;
+	bottom: 0;
+	width: 2px;
+	height: 100px;
+	margin: 0px auto;
+	background-color: lightblue;
+}
+
+.header {
+	padding-top: 200px;
+}
+.email {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.Contact-Container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: auto;
+		background-color: black;
+		position: static;
+		padding-bottom: 40px;
+
+		width: 100%;
+	}
+	.Contact {
+		flex-direction: row;
+		padding: 0;
+	}
+	.list {
+		padding: 20px;
+		color: white;
+		text-decoration: none !important;
+	}
+
+	.list:hover {
+		color: lightblue;
+		transition: 0.2s ease-in-out;
+		cursor: pointer;
+	}
+	.line {
+		display: none;
+	}
+	.email {
+		display: list-item;
+		list-style: none;
+		color: lightblue;
+	}
+}

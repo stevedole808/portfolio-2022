@@ -1,0 +1,62 @@
+.svg {
+	width: 50px;
+	transform: rotate(45deg);
+}
+
+.Contact-Form {
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Form-Container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 11px 15px -7px rgba(0, 255, 255, 0.12),
+		0 24px 38px 3px rgba(0, 255, 255, 0.12),
+		0 9px 46px 8px rgba(0, 255, 255, 0.12);
+}
+
+.Form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid white;
+	border-radius: 8px;
+	width: 300px;
+	color: white;
+	padding: 32px;
+}
+
+.Text {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	padding: 8px;
+	margin: 8px;
+}
+
+.Contact-Me {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: lightblue;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 220px;
+	padding: 4px;
+	margin: 8px;
+	border-radius: 8px;
+	background-color: black;
+	cursor: pointer;
+	color: lightblue;
+	border-color: lightblue;
+	border-width: 3px;
+}

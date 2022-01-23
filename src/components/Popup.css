@@ -1,0 +1,124 @@
+.Modal-Container {
+	background: grey;
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 960px;
+}
+.Popup-Title {
+	display: flex;
+	flex-direction: row;
+	color: lightblue;
+}
+.Modal-Text {
+	font-size: 16px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	letter-spacing: 0.5px;
+	color: white;
+}
+
+.Modal-Button {
+	background-color: grey;
+	border: none;
+	font-size: 20px;
+	margin-left: auto;
+	margin-bottom: -20px;
+	color: black;
+}
+
+.Modal-Content {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.image {
+	width: 600px;
+	height: 300px;
+}
+
+.Modal-List {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.Modal-List li {
+	margin: 5px;
+	padding: 3px;
+	border: 1px solid lightblue;
+	color: white;
+}
+
+.List {
+	color: lightblue;
+}
+
+.Tech-Lists {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+.Tech-Lists li {
+	color: lightgrey;
+}
+
+.hyperlink {
+	width: 25px;
+	padding: 0px 8px;
+}
+
+.links {
+	margin-right: auto;
+}
+
+.learn-more {
+	background-color: lightblue;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	border-color: black;
+	color: black;
+}
+
+@media screen and (max-width: 900px) {
+	.Modal-Container {
+		border: 1px solid red;
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		flex-direction: column;
+		width: 93%;
+	}
+	.Modal-Content {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.image {
+		width: 80%;
+		height: 40%;
+	}
+	.Modal-Text {
+		margin: 10px 40px;
+	}
+	/* .Modal-Header {
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	} */
+
+	.Popup-Title {
+		font-size: 20px;
+	}
+}
