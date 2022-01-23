@@ -15,7 +15,6 @@ import project2 from '../images/sautiAfrica.png';
 import project3 from '../images/nba.png';
 import { Link } from 'react-router-dom';
 import PopupFoster from './Popup.js';
-import { projObjOne } from './Data.js';
 import PopupSauti from './Popup1';
 import PopupNBA from './Popup2';
 const useStyles = makeStyles((theme) => ({
