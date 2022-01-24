@@ -34,6 +34,7 @@
 		flex-direction: column;
 		width: 300px;
 		padding: 0;
+		padding-top: 100px;
 	}
 	.About-Section {
 		padding: 0;
@@ -41,6 +42,7 @@
 	.Profile-Pic {
 		width: 300px;
 		padding: 0;
+		margin-bottom: 200px;
 	}
 }
 
@@ -56,5 +58,6 @@
 	}
 	.Profile-Pic {
 		width: 200px;
+		padding-bottom: 100px;
 	}
 }
