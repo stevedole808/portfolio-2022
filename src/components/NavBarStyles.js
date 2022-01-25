@@ -7,21 +7,22 @@ export const Nav = styled.div`
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;
-	position: sticky;
+	position: relative;
 	top: 0;
 	z-index: 10;
 	background-color: black;
 	height: 80px;
-
+	width: 100%;
+	margin-bottom: -80px;
 	@media screen and (max-width: 960px) {
 		transition: 0.8s all ease;
 	}
 `;
 
 export const Resume = styled.a`
-	color: lightblue;
+	color: #add8e6;
 	text-decoration: none;
-	border: 2px solid lightblue;
+	border: 2px solid #add8e6;
 	padding: 12px;
 	border-radius: 6px;
 `;
@@ -89,6 +90,6 @@ export const NavLinks = styled(LinkS)`
 	cursor: pointer;
 
 	&.active {
-		border-bottom: 3px solid lightblue;
+		border-bottom: 3px solid #add8e6;
 	}
 `;

@@ -6,7 +6,6 @@
 	right: auto;
 	z-index: 10;
 	color: white;
-	margin-right: 20%;
 }
 
 .Contact {
@@ -28,7 +27,7 @@
 	font-size: 30px;
 }
 .list:hover {
-	color: lightblue;
+	color: #add8e6;
 	transition: 0.2s ease-in-out;
 	cursor: pointer;
 }
@@ -44,7 +43,7 @@
 	width: 2px;
 	height: 100px;
 	margin: 0px auto;
-	background-color: lightblue;
+	background-color: #add8e6;
 }
 
 .header {
@@ -63,12 +62,15 @@
 		background-color: black;
 		position: static;
 		padding-bottom: 40px;
-
-		width: 100%;
+		width: 100vw;
 	}
 	.Contact {
 		flex-direction: row;
 		padding: 0;
+	}
+	.Contact li {
+		padding-top: 50px;
+		padding-bottom: 0px;
 	}
 	.list {
 		padding: 20px;
@@ -77,7 +79,7 @@
 	}
 
 	.list:hover {
-		color: lightblue;
+		color: #add8e6;
 		transition: 0.2s ease-in-out;
 		cursor: pointer;
 	}
@@ -87,6 +89,7 @@
 	.email {
 		display: list-item;
 		list-style: none;
-		color: lightblue;
+		color: #add8e6;
+		padding-top: -80px;
 	}
 }

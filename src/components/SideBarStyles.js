@@ -56,15 +56,15 @@ export const SideBarLink = styled(LinkScroll)`
 	color: #fff;
 	cursor: pointer;
 	&:hover {
-		color: lightblue;
+		color: #add8e6;
 		transition: 0.2s ease-in-out;
 	}
 `;
 
 export const Resume = styled.a`
-	color: lightblue;
+	color: #add8e6;
 	text-decoration: none;
-	border: 2px solid lightblue;
+	border: 2px solid #add8e6;
 	padding: 12px;
 	border-radius: 6px;
 `;

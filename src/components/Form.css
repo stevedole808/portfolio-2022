@@ -4,11 +4,11 @@
 }
 
 .Contact-Form {
-	height: 100vh;
 	background-color: black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 100vh;
 }
 
 .Form-Container {
@@ -43,7 +43,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	color: lightblue;
+	color: #add8e6;
 }
 
 .button {
@@ -56,7 +56,7 @@
 	border-radius: 8px;
 	background-color: black;
 	cursor: pointer;
-	color: lightblue;
-	border-color: lightblue;
+	color: #add8e6;
+	border-color: #add8e6;
 	border-width: 3px;
 }

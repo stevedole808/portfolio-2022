@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import './Popup.css';
 import { useModal } from 'react-hooks-use-modal';
-import project2 from '../images/sautiAfrica.png';
+import project3 from '../images/nba.png';
 import github from '../images/github.svg';
 import hyperlink from '../images/hyperlink.png';
 
@@ -42,7 +42,7 @@ const PopupNBA = () => {
 							This project sticks out to me because it was the start of a
 							passion that will last for many many years.
 						</p>
-						<img className="image" src={project2} />
+						<img className="image" src={project3} />
 					</section>
 
 					<ul className="Modal-List">

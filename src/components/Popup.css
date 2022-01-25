@@ -10,14 +10,14 @@
 .Popup-Title {
 	display: flex;
 	flex-direction: row;
-	color: lightblue;
+	color: #add8e6;
 }
 .Modal-Text {
 	font-size: 16px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
+	padding-right: 20px;
 	letter-spacing: 0.5px;
 	color: white;
 }
@@ -53,12 +53,12 @@
 .Modal-List li {
 	margin: 5px;
 	padding: 3px;
-	border: 1px solid lightblue;
+	border: 1px solid #add8e6;
 	color: white;
 }
 
 .List {
-	color: lightblue;
+	color: #add8e6;
 }
 
 .Tech-Lists {
@@ -80,7 +80,7 @@
 }
 
 .learn-more {
-	background-color: lightblue;
+	background-color: #add8e6;
 	border-radius: 5px;
 	width: 100px;
 	height: 25px;

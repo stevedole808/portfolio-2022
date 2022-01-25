@@ -13,6 +13,7 @@ import {
 	Resume,
 } from './NavBarStyles.js';
 import resume from '../images/resume.pdf';
+import Fade from 'react-reveal/Fade';
 const NavBar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
@@ -41,45 +42,53 @@ const NavBar = ({ toggle }) => {
 							<FaBars />
 						</MobileIcon>
 						<NavMenu>
-							<NavItem>
-								<NavLinks
-									to="about"
-									smooth={true}
-									duration={500}
-									spy={true}
-									exact="true"
-									offset={-80}
-								>
-									About
-								</NavLinks>
-							</NavItem>
-							<NavItem>
-								<NavLinks
-									to="work"
-									smooth={true}
-									duration={500}
-									spy={true}
-									exact="true"
-									offset={-80}
-								>
-									Work
-								</NavLinks>
-							</NavItem>
-							<NavItem>
-								<NavLinks
-									to="contact"
-									smooth={true}
-									duration={500}
-									spy={true}
-									exact="true"
-									offset={-80}
-								>
-									Contact
-								</NavLinks>
-							</NavItem>
-							<Resume className="resume" href={resume}>
-								Resume
-							</Resume>
+							<Fade top>
+								<NavItem>
+									<NavLinks
+										to="about"
+										smooth={true}
+										duration={500}
+										spy={true}
+										exact="true"
+										offset={-80}
+									>
+										About
+									</NavLinks>
+								</NavItem>
+							</Fade>
+							<Fade top>
+								<NavItem>
+									<NavLinks
+										to="work"
+										smooth={true}
+										duration={500}
+										spy={true}
+										exact="true"
+										offset={-80}
+									>
+										Work
+									</NavLinks>
+								</NavItem>
+							</Fade>
+							<Fade top>
+								<NavItem>
+									<NavLinks
+										to="contact"
+										smooth={true}
+										duration={500}
+										spy={true}
+										exact="true"
+										offset={-80}
+									>
+										Contact
+									</NavLinks>
+								</NavItem>
+							</Fade>
+							<Fade top>
+								<Resume className="resume" href={resume}>
+									Resume
+								</Resume>
+							</Fade>
 						</NavMenu>
 					</NavBarContainer>
 				</Nav>

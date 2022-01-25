@@ -1,4 +1,4 @@
-.About {
+/* .About {
 	background-color: black;
 	height: 100vh;
 }
@@ -19,45 +19,71 @@
 	padding: 24px;
 }
 
+
+.Body {
+	color: white;
+} */
+
+.About {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.About-Container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0px 150px;
+}
+
 .Header {
-	color: lightblue;
+	color: #add8e6;
+	font-size: 30px;
+	font-weight: bold;
+}
+.Tech-Lists,
+.List {
+	padding: 10px 0px;
+	line-height: 20px;
 }
 
 .Body {
 	color: white;
+	padding: 10px 0px;
+	padding-right: 24px;
+	line-height: 24px;
+}
+
+.Profile-Pic {
+	width: 350px;
 }
 
 @media screen and (max-width: 768px) {
 	.About-Container {
 		display: flex;
-		justify-content: center;
 		flex-direction: column;
-		width: 300px;
-		padding: 0;
-		padding-top: 100px;
+		margin: 0 auto;
+		padding: 0px;
+		width: 400px;
+		padding-bottom: 80px;
 	}
 	.About-Section {
 		padding: 0;
 	}
-	.Profile-Pic {
-		width: 300px;
-		padding: 0;
-		margin-bottom: 200px;
-	}
-}
-
-@media screen and (max-width: 1100px) {
-	.About-Container {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-		max-width: 600px;
-		margin-left: 100px;
-		height: 100vh;
+	.Header,
+	.List,
+	.Body,
+	.Tech-Lists {
+		padding: 10px 0px;
+		padding-left: 20px;
 	}
 	.Profile-Pic {
-		width: 200px;
-		padding-bottom: 100px;
+		width: 350px;
+		padding: 20px 0px;
+		padding-left: 20px;
 	}
 }
