@@ -21,6 +21,10 @@ import Slide from 'react-reveal/Slide';
 const useStyles = makeStyles((theme) => ({
 	mainContainer: {
 		backgroundColor: 'black',
+		height: '100vh',
+		display: 'flex',
+		justifyContent: 'center',
+		flexDirection: 'column',
 		['@media (max-width: 768px)']: {
 			height: '100%',
 		},
